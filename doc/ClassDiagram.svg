@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg height="892" version="1.1" width="1428" xmlns="http://www.w3.org/2000/svg">
+<rect fill="#ffffff" height="264" stroke="#ffffff" stroke-width="1" width="533" x="14" y="14"/>
+<rect fill="none" height="264" stroke="#000000" stroke-width="1" width="533" x="14" y="14"/>
+<text font-family="Dialog" font-size="12" x="260" y="27">
+Usuário</text>
+<rect fill="#000000" height="1" stroke="#000000" stroke-width="1" width="533" x="14" y="37"/>
+<text font-family="Dialog" font-size="12" x="18" y="51">
+nome : String</text>
+<text font-family="Dialog" font-size="12" x="18" y="67">
+email : String</text>
+<text font-family="Dialog" font-size="12" x="18" y="83">
+senha : String</text>
+<text font-family="Dialog" font-size="12" x="18" y="99">
+dataInício : Data</text>
+<text font-family="Dialog" font-size="12" x="18" y="115">
+dataConfirmação : Data</text>
+<text font-family="Dialog" font-size="12" x="18" y="131">
+isAdministrador : Boolean</text>
+<text font-family="Dialog" font-size="12" x="18" y="147">
+avatar : String</text>
+<text font-family="Dialog" font-size="12" x="18" y="163">
+tokenConfirmação : String</text>
+<rect fill="#000000" height="1" stroke="#000000" stroke-width="1" width="533" x="14" y="173"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="18" x2="245" y1="188" y2="188"/>
+<text font-family="Dialog" font-size="12" x="18" y="187">
+login(email : String,senha : String) : Usuário</text>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="18" x2="216" y1="204" y2="204"/>
+<text font-family="Dialog" font-size="12" x="18" y="203">
+iniciaRegistro(email : String) : Usuário</text>
+<text font-family="Dialog" font-size="12" x="18" y="219">
+confirmaRegistro(token : String,nome : String,senha : String,avatar : String)</text>
+<text font-family="Dialog" font-size="12" x="18" y="235">
+criarDeck(deckBase : Deck) : Deck</text>
+<text font-family="Dialog" font-size="12" x="18" y="251">
+segue(usuário : Usuário)</text>
+<text font-family="Dialog" font-size="12" x="18" y="267">
+trocarSenha(atual : String,nova : String)</text>
+<rect fill="#ffffff" height="184" stroke="#ffffff" stroke-width="1" width="168" x="118" y="406"/>
+<rect fill="none" height="184" stroke="#000000" stroke-width="1" width="168" x="118" y="406"/>
+<text font-family="Dialog" font-size="12" x="189" y="419">
+Deck</text>
+<rect fill="#000000" height="1" stroke="#000000" stroke-width="1" width="168" x="118" y="429"/>
+<text font-family="Dialog" font-size="12" x="122" y="443">
+nome : String</text>
+<text font-family="Dialog" font-size="12" x="122" y="459">
+descrição : String</text>
+<text font-family="Dialog" font-size="12" x="122" y="475">
+tags : String*</text>
+<rect fill="#000000" height="1" stroke="#000000" stroke-width="1" width="168" x="118" y="509"/>
+<text font-family="Dialog" font-size="12" x="122" y="523">
+adicionaTag(tag : String)</text>
+<text font-family="Dialog" font-size="12" x="122" y="539">
+removeTag(tag : String)</text>
+<text font-family="Dialog" font-size="12" x="122" y="555">
+comparar(deck : Deck)</text>
+<rect fill="#ffffff" height="240" stroke="#ffffff" stroke-width="1" width="160" x="638" y="22"/>
+<rect fill="none" height="240" stroke="#000000" stroke-width="1" width="160" x="638" y="22"/>
+<text font-family="Dialog" font-size="12" x="704" y="35">
+Carta</text>
+<rect fill="#000000" height="1" stroke="#000000" stroke-width="1" width="160" x="638" y="45"/>
+<text font-family="Dialog" font-size="12" x="642" y="59">
+nome : String</text>
+<text font-family="Dialog" font-size="12" x="642" y="75">
+descrição : String</text>
+<text font-family="Dialog" font-size="12" x="642" y="91">
+poder : String</text>
+<text font-family="Dialog" font-size="12" x="642" y="107">
+resistência : String</text>
+<text font-family="Dialog" font-size="12" x="642" y="123">
+numero : String</text>
+<text font-family="Dialog" font-size="12" x="642" y="139">
+raridade : String</text>
+<text font-family="Dialog" font-size="12" x="642" y="155">
+superTipo : String</text>
+<text font-family="Dialog" font-size="12" x="642" y="171">
+subTipo : String*</text>
+<text font-family="Dialog" font-size="12" x="642" y="187">
+imagem : String</text>
+<text font-family="Dialog" font-size="12" x="642" y="203">
+coleção : String</text>
+<rect fill="#000000" height="1" stroke="#000000" stroke-width="1" width="160" x="638" y="226"/>
+<rect fill="#ffffff" height="112" stroke="#ffffff" stroke-width="1" width="240" x="878" y="38"/>
+<rect fill="none" height="112" stroke="#000000" stroke-width="1" width="240" x="878" y="38"/>
+<text font-family="Dialog" font-size="12" x="961" y="51">
+CustoDeMana</text>
+<rect fill="#000000" height="1" stroke="#000000" stroke-width="1" width="240" x="878" y="61"/>
+<text font-family="Dialog" font-size="12" x="882" y="75">
+quantidade : Integer</text>
+<rect fill="#000000" height="1" stroke="#000000" stroke-width="1" width="240" x="878" y="106"/>
+<polyline fill="none" points="797,149 878,149" stroke="#000000" stroke-width="1"/>
+<polygon fill="#ffffff" points="797,149 807,144 817,149 807,154" stroke="#ffffff" stroke-width="1"/>
+<polygon fill="none" points="797,149 807,144 817,149 807,154" stroke="#000000" stroke-width="1"/>
+<text font-family="Dialog" font-size="12" x="802" y="144">
+0..*</text>
+<text font-family="Dialog" font-size="12" x="853" y="144">
+0..*</text>
+<rect fill="#ffffff" height="184" stroke="#ffffff" stroke-width="1" width="304" x="1110" y="214"/>
+<rect fill="none" height="184" stroke="#000000" stroke-width="1" width="304" x="1110" y="214"/>
+<text font-family="Dialog" font-size="12" x="1252" y="246">
+Cor</text>
+<text font-family="Dialog" font-size="12" x="1213" y="228">
+&lt;&lt;enumeration&gt;&gt;</text>
+<rect fill="#000000" height="1" stroke="#000000" stroke-width="1" width="304" x="1110" y="256"/>
+<text font-family="Dialog" font-size="12" x="1114" y="270">
+Verde</text>
+<text font-family="Dialog" font-size="12" x="1114" y="286">
+Vermelho</text>
+<text font-family="Dialog" font-size="12" x="1114" y="302">
+Azul</text>
+<text font-family="Dialog" font-size="12" x="1114" y="318">
+Preto</text>
+<text font-family="Dialog" font-size="12" x="1114" y="334">
+Branco</text>
+<text font-family="Dialog" font-size="12" x="1114" y="350">
+Incolor</text>
+<rect fill="#000000" height="1" stroke="#000000" stroke-width="1" width="304" x="1110" y="368"/>
+<polyline fill="none" points="1117,149 1117,214" stroke="#000000" stroke-width="1"/>
+<polygon fill="#ffffff" points="1117,149 1122,159 1117,169 1112,159" stroke="#ffffff" stroke-width="1"/>
+<polygon fill="none" points="1117,149 1122,159 1117,169 1112,159" stroke="#000000" stroke-width="1"/>
+<text font-family="Dialog" font-size="12" x="1124" y="176">
+0..*</text>
+<text font-family="Dialog" font-size="12" x="1130" y="197">
+1</text>
+<ellipse cx="1119" cy="181" fill="#000000" rx="0.5" ry="0.5" stroke="#000000" stroke-width="1"/>
+<ellipse cx="1120" cy="182" fill="#ffffff" rx="-0.5" ry="-0.5" stroke="#ffffff" stroke-width="1"/>
+<polyline fill="none" points="285,406 638,261" stroke="#000000" stroke-width="1"/>
+<polygon fill="#ffffff" points="285,406 292,397 303,399 296,406" stroke="#ffffff" stroke-width="1"/>
+<polygon fill="none" points="285,406 292,397 303,399 296,406" stroke="#000000" stroke-width="1"/>
+<text font-family="Dialog" font-size="12" x="287" y="389">
+0..*</text>
+<text font-family="Dialog" font-size="12" x="301" y="413">
+Composto De</text>
+<text font-family="Dialog" font-size="12" x="604" y="260">
+0..*</text>
+<text font-family="Dialog" font-size="12" x="574" y="302">
+Utilizada Em</text>
+<rect fill="#ffffff" height="192" stroke="#ffffff" stroke-width="1" width="192" x="878" y="230"/>
+<rect fill="none" height="192" stroke="#000000" stroke-width="1" width="192" x="878" y="230"/>
+<text font-family="Dialog" font-size="12" x="962" y="262">
+Tipo</text>
+<text font-family="Dialog" font-size="12" x="925" y="244">
+&lt;&lt;enumeration&gt;&gt;</text>
+<rect fill="#000000" height="1" stroke="#000000" stroke-width="1" width="192" x="878" y="272"/>
+<text font-family="Dialog" font-size="12" x="882" y="286">
+Terreno</text>
+<text font-family="Dialog" font-size="12" x="882" y="302">
+Criatura</text>
+<text font-family="Dialog" font-size="12" x="882" y="318">
+Artefato</text>
+<text font-family="Dialog" font-size="12" x="882" y="334">
+Feitiço</text>
+<text font-family="Dialog" font-size="12" x="882" y="350">
+Encantamento</text>
+<text font-family="Dialog" font-size="12" x="882" y="366">
+Magica Instantanea</text>
+<text font-family="Dialog" font-size="12" x="882" y="382">
+Planeswalker</text>
+<rect fill="#000000" height="1" stroke="#000000" stroke-width="1" width="192" x="878" y="396"/>
+<polyline fill="none" points="797,261 878,261" stroke="#000000" stroke-width="1"/>
+<polygon fill="#ffffff" points="797,261 807,256 817,261 807,266" stroke="#ffffff" stroke-width="1"/>
+<polygon fill="none" points="797,261 807,256 817,261 807,266" stroke="#000000" stroke-width="1"/>
+<text font-family="Dialog" font-size="12" x="802" y="256">
+0..*</text>
+<text font-family="Dialog" font-size="12" x="853" y="256">
+1..*</text>
+<polyline fill="none" points="342,277 342,334 285,406" stroke="#000000" stroke-width="1"/>
+<polygon fill="#000000" points="342,277 347,287 342,297 337,287" stroke="#000000" stroke-width="1"/>
+<polygon fill="none" points="342,277 347,287 342,297 337,287" stroke="#000000" stroke-width="1"/>
+<text font-family="Dialog" font-size="12" x="355" y="304">
+1</text>
+<text font-family="Dialog" font-size="12" x="307" y="297">
+Possui</text>
+<text font-family="Dialog" font-size="12" x="276" y="379">
+0..*</text>
+<text font-family="Dialog" font-size="12" x="281" y="347">
+Pertence a</text>
+<rect fill="#ffffff" height="128" stroke="#ffffff" stroke-width="1" width="216" x="62" y="670"/>
+<rect fill="none" height="128" stroke="#000000" stroke-width="1" width="216" x="62" y="670"/>
+<text font-family="Dialog" font-size="12" x="136" y="683">
+ModoDeJogo</text>
+<rect fill="#000000" height="1" stroke="#000000" stroke-width="1" width="216" x="62" y="693"/>
+<text font-family="Dialog" font-size="12" x="66" y="707">
+nome : String</text>
+<rect fill="#000000" height="1" stroke="#000000" stroke-width="1" width="216" x="62" y="745"/>
+<text font-family="Dialog" font-size="12" x="66" y="759">
+verificaDeck(deck : Deck)</text>
+<polyline fill="none" points="277,797 278,878 774,878 774,261" stroke="#000000" stroke-width="1"/>
+<polygon fill="#ffffff" points="277,797 282,806 277,817 272,807" stroke="#ffffff" stroke-width="1"/>
+<polygon fill="none" points="277,797 282,806 277,817 272,807" stroke="#000000" stroke-width="1"/>
+<text font-family="Dialog" font-size="12" x="684" y="863">
+Cartas Legais</text>
+<text font-family="Dialog" font-size="12" x="284" y="824">
+0..*</text>
+<text font-family="Dialog" font-size="12" x="747" y="288">
+1..*</text>
+<polyline fill="none" points="206,406 206,382 94,382 96,382 94,382 94,542 118,542" stroke="#000000" stroke-width="1"/>
+<polygon fill="#ffffff" points="206,406 201,396 206,386 211,396" stroke="#ffffff" stroke-width="1"/>
+<polygon fill="none" points="206,406 201,396 206,386 211,396" stroke="#000000" stroke-width="1"/>
+<text font-family="Dialog" font-size="12" x="202" y="376">
+0..*</text>
+<text font-family="Dialog" font-size="12" x="141" y="360">
+Deck Com Base Em</text>
+<text font-family="Dialog" font-size="12" x="83" y="564">
+0..1</text>
+<text font-family="Dialog" font-size="12" x="16" y="509">
+Deck Original De</text>
+<ellipse cx="96" cy="404" fill="#000000" rx="0.5" ry="0.5" stroke="#000000" stroke-width="1"/>
+<ellipse cx="97" cy="405" fill="#ffffff" rx="-0.5" ry="-0.5" stroke="#ffffff" stroke-width="1"/>
+<polyline fill="none" points="94,277 94,318 190,318 190,277" stroke="#000000" stroke-width="1"/>
+<text font-family="Dialog" font-size="12" x="81" y="360">
+0..*</text>
+<text font-family="Dialog" font-size="12" x="59" y="297">
+Segue</text>
+<text font-family="Dialog" font-size="12" x="163" y="304">
+0..*</text>
+<text font-family="Dialog" font-size="12" x="193" y="306">
+É Seguido</text>
+<rect fill="#ffffff" height="176" stroke="#ffffff" stroke-width="1" width="310" x="382" y="390"/>
+<rect fill="none" height="176" stroke="#000000" stroke-width="1" width="310" x="382" y="390"/>
+<text font-family="Dialog" font-size="12" font-style="italic" x="489" y="403">
+ConjuntoDeCartas</text>
+<rect fill="#000000" height="1" stroke="#000000" stroke-width="1" width="310" x="382" y="413"/>
+<rect fill="#000000" height="1" stroke="#000000" stroke-width="1" width="310" x="382" y="439"/>
+<text font-family="Dialog" font-size="12" font-style="italic" x="386" y="453">
+cartas() : Cartas*</text>
+<text font-family="Dialog" font-size="12" font-style="italic" x="386" y="469">
+adicionaCarta(carta : Carta)</text>
+<text font-family="Dialog" font-size="12" font-style="italic" x="386" y="485">
+removeCarta(carta : Carta)</text>
+<text font-family="Dialog" font-size="12" x="386" y="501">
+buscaPorAtributo(atributo : String,valor : String) : Carta*</text>
+<text font-family="Dialog" font-size="12" x="386" y="517">
+buscaPorSubTipo(subTipo : String) : Carta*</text>
+<text font-family="Dialog" font-size="12" x="386" y="533">
+buscaPorCor(cor : Cor) : Carta*</text>
+<text font-family="Dialog" font-size="12" x="386" y="549">
+buscaPorTipo(tipo : Tipo) : Carta*</text>
+<polyline fill="none" points="285,518 382,518" stroke="#000000" stroke-width="1"/>
+<polygon fill="#ffffff" points="382,518 370,525 370,511" stroke="#ffffff" stroke-width="1"/>
+<polygon fill="none" points="382,518 370,525 370,511" stroke="#000000" stroke-width="1"/>
+<polyline fill="none" points="277,670 382,565" stroke="#000000" stroke-width="1"/>
+<polygon fill="#ffffff" points="382,565 378,578 368,568" stroke="#ffffff" stroke-width="1"/>
+<polygon fill="none" points="382,565 378,578 368,568" stroke="#000000" stroke-width="1"/>
+<rect fill="#ffffff" height="168" stroke="#ffffff" stroke-width="1" width="248" x="414" y="638"/>
+<rect fill="none" height="168" stroke="#000000" stroke-width="1" width="248" x="414" y="638"/>
+<text font-family="Dialog" font-size="12" x="498" y="651">
+BancoDeCartas</text>
+<rect fill="#000000" height="1" stroke="#000000" stroke-width="1" width="248" x="414" y="661"/>
+<text font-family="Dialog" font-size="12" x="418" y="675">
+todasCartas : Cartas*</text>
+<rect fill="#000000" height="1" stroke="#000000" stroke-width="1" width="248" x="414" y="725"/>
+<text font-family="Dialog" font-size="12" x="418" y="739">
+importa(dados : String)</text>
+<text font-family="Dialog" font-size="12" x="418" y="755">
+exporta() : String</text>
+<polyline fill="none" points="470,638 470,565" stroke="#000000" stroke-width="1"/>
+<polygon fill="#ffffff" points="470,565 477,577 463,577" stroke="#ffffff" stroke-width="1"/>
+<polygon fill="none" points="470,565 477,577 463,577" stroke="#000000" stroke-width="1"/>
+<polyline fill="none" points="118,589 118,670" stroke="#000000" stroke-width="1"/>
+</svg>
