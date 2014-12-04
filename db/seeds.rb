@@ -5,3 +5,15 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+
+Color.create([
+  {name: 'Blue',  land: 'Island'},
+  {name: 'White', land: 'Plain'},
+  {name: 'Black', land: 'Swamp'},
+  {name: 'Red',   land: 'Mountain'},
+  {name: 'Green', land: 'Forest'}
+])
+
+CardType.create(%w(
+  Artifact Creature Enchantment Instant Land Planeswalke Tribal Sorcery
+).map { |t| {name: t} })
