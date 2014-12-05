@@ -29,16 +29,18 @@ gem 'spring', group: :development
 gem 'bcrypt', '~> 3.1.7'
 
 gem 'devise'
+gem 'twitter-bootstrap-rails'
 
 group :assets do
   gem 'therubyracer'
-  gem 'twitter-bootstrap-rails'
 end
 
 group :development, :test do
   gem 'rspec-rails', '~> 3.0'
+  gem 'factory_girl_rails', '~> 4.0'
   gem 'capybara'
-  gem 'pry-byebug'
+  gem 'debase'
+  gem 'ruby-debug-ide'
 end
 
 group :production do
